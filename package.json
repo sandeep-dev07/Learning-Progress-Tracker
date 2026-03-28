@@ -2,12 +2,15 @@
   "name": "learning-dashboard",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://sandeep-dev07.github.io/Learning-Progress-Tracker",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "chart.js": "^4.5.1",
     "firebase": "^12.11.0",
@@ -18,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.3.0",
     "vite": "^5.0.0"
   }
 }
