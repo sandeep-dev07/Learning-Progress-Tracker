@@ -25,8 +25,8 @@ export const LoginForm = ({ users, onLogin, switchToRegister }) => {
           <div style={{width:52,height:52,borderRadius:12,background:'var(--accent-teal)',display:'flex',alignItems:'center',justifyContent:'center',margin:'0 auto 1rem',boxShadow:'0 8px 24px rgba(0,230,184,0.3)'}}>
             <Icon name="chart" size={24} color="#0f1117" />
           </div>
-          <h1 className="text-xl font-bold">DLS</h1>
-          <p className="text-secondary text-sm mt-1">Dashboard Learning System</p>
+          <h1 className="text-xl font-bold">LPT</h1>
+          <p className="text-secondary text-sm mt-1">Learning Progress Tracker</p>
         </div>
         <div className="card" style={{padding:'1.5rem'}}>
           {error && <div className="mb-3 text-red text-sm" role="alert" style={{background:'#2a0f0f',padding:'8px 12px',borderRadius:'var(--radius)',border:'1px solid #5c2020'}}>{error}</div>}
@@ -68,7 +68,7 @@ export const RegisterForm = ({ onRegister, switchToLogin }) => {
             <Icon name="users" size={24} color="#0f1117" />
           </div>
           <h1 className="text-xl font-bold">Create Account</h1>
-          <p className="text-secondary text-sm mt-1">Join DLS today</p>
+          <p className="text-secondary text-sm mt-1">Join LPT today</p>
         </div>
         <div className="card" style={{padding:'1.5rem'}}>
           {error && <div className="mb-3 text-red text-sm" role="alert" style={{background:'#2a0f0f',padding:'8px 12px',borderRadius:'var(--radius)',border:'1px solid #5c2020'}}>{error}</div>}

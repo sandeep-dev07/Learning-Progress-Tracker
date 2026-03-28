@@ -21,7 +21,7 @@ export const Sidebar = ({ user, view, setView, onLogout }) => {
         <div style={{width:32,height:32,borderRadius:8,background:'var(--accent-teal)',display:'flex',alignItems:'center',justifyContent:'center'}}>
           <Icon name="chart" size={16} color="#0f1117" />
         </div>
-        <span className="font-bold" style={{fontSize:16,color:'var(--text-primary)'}}>DLS</span>
+        <span className="font-bold" style={{fontSize:16,color:'var(--text-primary)'}}>LPT</span>
       </div>
       <div className="mb-4" style={{padding:'10px',background:'var(--bg-elevated)',borderRadius:'var(--radius-lg)',border:'1px solid var(--border)'}}>
         <div className="flex items-center gap-2">
